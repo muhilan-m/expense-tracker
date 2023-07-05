@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "expensetracker-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/expensetracker1/Expensetracker1WebPart.js",
+          "manifest": "./src/webparts/expensetracker1/Expensetracker1WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Expensetracker1WebPartStrings": "lib/webparts/expensetracker1/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

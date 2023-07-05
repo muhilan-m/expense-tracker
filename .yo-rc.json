@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.3",
+    "libraryName": "expense-tracker",
+    "libraryId": "0fc197c0-e532-4456-8d05-70f12767befc",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "expense-tracker",
+    "solutionShortDescription": "expense-tracker description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
